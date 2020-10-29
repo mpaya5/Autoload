@@ -32,7 +32,7 @@ There is nothing wrong with the above code, it will work perfectly. But what if 
 Instead of having to load each of our application's classes manually, we can register an autoloader. The autoloader is intended to automatically load the classes used. Every time an attempt is made to initialize a class and the class does not exist, the name of this class is passed to the autoloader and it is executed. In the autoloader we can automate the loading process without having to manually include each file and it also allows us to make the code faster, only the classes that are actually used will be loaded. 
 Here you have one example of how to use Autoload:
 ```
-} );<?php
+<?php
 
 function app_autoloader($class)
 {
