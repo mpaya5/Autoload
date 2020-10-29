@@ -1,6 +1,6 @@
 <?php
 require_once 'autoload.php';
-/*Te ahorras hacer esto:
+/*Instead of using that:
 require_once 'clases/usuario.php';
 require_once 'clases/categoria.php';
 require_once 'clases/entrada.php';
